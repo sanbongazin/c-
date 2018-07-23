@@ -60,15 +60,15 @@ include CMakeFiles/tsumura_make.dir/flags.make
 CMakeFiles/tsumura_make.dir/tsumura.c.o: CMakeFiles/tsumura_make.dir/flags.make
 CMakeFiles/tsumura_make.dir/tsumura.c.o: ../tsumura.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yamamotomasaomi/Documents/GitHub/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tsumura_make.dir/tsumura.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tsumura_make.dir/tsumura.c.o   -c /Users/yamamotomasaomi/Documents/GitHub/C++/tsumura.c
+	/usr/local/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tsumura_make.dir/tsumura.c.o   -c /Users/yamamotomasaomi/Documents/GitHub/C++/tsumura.c
 
 CMakeFiles/tsumura_make.dir/tsumura.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tsumura_make.dir/tsumura.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yamamotomasaomi/Documents/GitHub/C++/tsumura.c > CMakeFiles/tsumura_make.dir/tsumura.c.i
+	/usr/local/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yamamotomasaomi/Documents/GitHub/C++/tsumura.c > CMakeFiles/tsumura_make.dir/tsumura.c.i
 
 CMakeFiles/tsumura_make.dir/tsumura.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tsumura_make.dir/tsumura.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yamamotomasaomi/Documents/GitHub/C++/tsumura.c -o CMakeFiles/tsumura_make.dir/tsumura.c.s
+	/usr/local/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yamamotomasaomi/Documents/GitHub/C++/tsumura.c -o CMakeFiles/tsumura_make.dir/tsumura.c.s
 
 # Object files for target tsumura_make
 tsumura_make_OBJECTS = \

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-g++-8"
+	BuildStamp="20180721-1630-Experimental"
+	Name="yamamotomasaomis-MacBook-Pro.local"
+	Generator="ctest-3.12.0"
+	CompilerName="/usr/local/bin/g++-8"
+	CompilerVersion="8.1.0"
+	OSName="Mac OS X"
+	Hostname="yamamotomasaomis-MacBook-Pro.local"
+	OSRelease="10.13.6"
+	OSVersion="17G65"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="70"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2500"
+	>
+	<Testing>
+		<StartDateTime>Jul 22 01:30 JST</StartDateTime>
+		<StartTestTime>1532190609</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 22 01:30 JST</EndDateTime>
+		<EndTestTime>1532190609</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

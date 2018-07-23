@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/yamamotomasaomi/Documents/GitHub/C++/tsumura.c" "/Users/yamamotomasaomi/Documents/GitHub/C++/build/CMakeFiles/tsumura_make.dir/tsumura.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
