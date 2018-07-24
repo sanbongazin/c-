@@ -43,7 +43,7 @@ CELL * insert1(CELL *head, int data) {
 void insert2(CELL **head_p, int data){
 	CELL *new = CELL_alloc(data);
 	CELL **p = head_p;
-	while(&&){
+	while((*p)-> next == NULL && data < (*p) -> next ->data){
 		p = (*p) -> next;
 	}
 	new -> next = *p;
