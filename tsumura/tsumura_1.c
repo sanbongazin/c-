@@ -40,25 +40,25 @@ CELL * insert1(CELL *head, int data) {
 	}
 }
 
-void insert2(CELL **head_p, int data){
+void insert2(CELL **head_p, int data) {
 	CELL *new = CELL_alloc(data);
 	CELL **p = head_p;
-	while((*p)-> next == NULL && data < (*p) -> next ->data){
-		p = (*p) -> next;
+	while ((*p) != NULL && (*p) -> next ) {
+		p = &(*p)->next;
 	}
-	new -> next = *p;
+	new->next = *p;
 	*p = new;
 }
 
 int main() {
 	CELL *head = NULL;
 
-	head = insert1(head, 10);//コンストラクタ実行のように振る舞う。
-	head = insert1(head, 30);
-	head = insert1(head, 20);
+	insert2(&head, 10);//コンストラクタ実行のように振る舞う。
+	insert2(&head, 30);
+	insert2(&head, 20);
 
-	int c = 0;
-	for (c = 0; c < 4; c++) {
-		printf("%d\n",answer[c]);
-	}
+	//	int c = 0;
+	//	for (c = 0; c < 4; c++) {
+	//		printf("%d\n", answer[c]);
+	//	}
 }
